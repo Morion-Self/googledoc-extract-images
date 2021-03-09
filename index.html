@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>Извлечь изображения из Гугл-дока</title>
+
+</head>
+
+<body>
+  <input id='inputUrl' type="text" placeholder="Ссылка на гугл-док" size="95%">
+  <p>
+    <input type="button" id="btnEd" value="Извлечь" onclick="getData()">
+  <p>
+  <div id='logger'></div>
+  <script src="./functions.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+extracted_images
+node_modules/
+package-lock.json
+.directory
