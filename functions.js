@@ -10,7 +10,7 @@ document.querySelector('#btnEd').addEventListener('click', () => {
     logger.clear();
     logger.add('init ...');
 
-    const tmpDir = os.tmpdir() + '/' + 'google_extract_images/' + uuidv4() + '/';
+    const tmpDir = os.tmpdir() + '/' + 'googledoc_extract_images/' + uuidv4() + '/';
     const zipFullName = tmpDir + 'zip.zip';
     const unzipDirFullName = tmpDir + 'unzip/';
     const dirImages = tmpDir + 'images/' + getDate() + '/';
