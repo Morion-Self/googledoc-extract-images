@@ -1,12 +1,12 @@
 {
   "name": "googledoc-extract-images",
   "version": "0.1.0",
-  "description": "Извлекает все изображения из гугл дока и нумерует их в порядке очередности",
+  "description": "Извлекает все изображения из гугл-дока и нумерует их в порядке очередности",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/Morion-Self/googledoc-extact-images",
+  "repository": "https://github.com/Morion-Self/googledoc-extract-images",
   "author": "Marat Talipov",
   "devDependencies": {
     "electron": "^12.0.0"
