@@ -12,9 +12,8 @@ document.querySelector('#btnEd').addEventListener('click', () => {
 
     const tmpDir = os.tmpdir() + '/' + 'google_extract_images/' + uuidv4() + '/';
     const zipFullName = tmpDir + 'zip.zip';
-    const unzipDirFullName = tmpDir + 'unzip';
-                                // хрень, но пока оставим так
-    const dirImages = __dirname + '/../../' + 'extracted_images/' + getDate();
+    const unzipDirFullName = tmpDir + 'unzip/';
+    const dirImages = tmpDir + 'images/' + getDate() + '/';
     let url = document.getElementById('inputUrl').value;
 
     logger.ok();
