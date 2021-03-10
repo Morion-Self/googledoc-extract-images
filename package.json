@@ -4,12 +4,15 @@
   "description": "Извлекает все изображения из гугл-дока и нумерует их в порядке очередности",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build-lin": "electron-packager . --overwrite --out=build --icon=icon.ico --platform=linux",
+    "build-win": "electron-packager . --overwrite --out=build --icon=icon.ico --platform=win32"
   },
   "repository": "https://github.com/Morion-Self/googledoc-extract-images",
   "author": "Marat Talipov",
   "devDependencies": {
-    "electron": "^12.0.0"
+    "electron": "^12.0.0",
+    "electron-packager": "^15.2.0"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
