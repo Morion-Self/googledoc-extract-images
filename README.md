@@ -4,14 +4,14 @@
 
 
 ## Демо
-![googledoc-extact-images demo](https://www.marat-talipov.ru/googledoc-extract-images/_images_for_github_readme/demo3.gif)
+![googledoc-extact-images demo](/img/demo.gif)
 
 
 ## Как пользоваться
 1. Скачать архив
 1. Запустить исполняемый файл `googledoc-extract-images`
 1. Ввести ссылку на гугл-документ. Он должен быть открыт всем на чтение:
-![googledoc-extact-images share](https://www.marat-talipov.ru/googledoc-extract-images/_images_for_github_readme/share.png)
+![googledoc-extact-images share](img/share.png)
 1. Нажать Кнопку `[Извлечь]` или клавишу `Enter`
 1. Откроется папка с извлеченными изображениями.
     >⚠️ Изображения извлекаются во временную директорию. Это значит, что после перезагрузки компьютера они исчезнут. Если они нужны вам на длительное время — сразу скопируйте их.
