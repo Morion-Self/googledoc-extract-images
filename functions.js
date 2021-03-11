@@ -13,7 +13,7 @@ document.querySelector('#btnEd').addEventListener('click', () => {
     const tmpDir = os.tmpdir() + '/' + 'googledoc_extract_images/' + uuidv4() + '/';
     const zipFullName = tmpDir + 'zip.zip';
     const unzipDirFullName = tmpDir + 'unzip/';
-    const dirImages = tmpDir + 'images/' + getDate() + '/';
+    const dirImages = tmpDir + 'images/';
     let url = document.getElementById('inputUrl').value;
 
     logger.ok();
@@ -108,16 +108,16 @@ function uuidv4() {
     });
 }
 
-function getDate() {
-    function pad(n) { return n < 10 ? '0' + n : n };
-    let d = new Date();
-    return d.getFullYear() + '-'
-        + pad(d.getMonth() + 1) + '-'
-        + pad(d.getDate()) + '_'
-        + pad(d.getHours()) + '-'
-        + pad(d.getMinutes()) + '-'
-        + pad(d.getSeconds());
-}
+// function getDate() {
+//     function pad(n) { return n < 10 ? '0' + n : n };
+//     let d = new Date();
+//     return d.getFullYear() + '-'
+//         + pad(d.getMonth() + 1) + '-'
+//         + pad(d.getDate()) + '_'
+//         + pad(d.getHours()) + '-'
+//         + pad(d.getMinutes()) + '-'
+//         + pad(d.getSeconds());
+// }
 
 // типа логгер, который будет выходить на экране.
 // Просто пишем текст в div
