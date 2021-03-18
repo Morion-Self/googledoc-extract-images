@@ -1,0 +1,10 @@
+# Если нужно добавить это приложение в главное меню в Linux, скопируйте этот файл в ~/.local/share/applications
+[Desktop Entry]
+Type=Application
+Name=GoogleDoc Extract Images
+Comment=Извлекает изображения из Гугл-дока, складывает в одну папку и нумерует в порядке использования в документе
+Terminal=false
+Categories=Productivity;Docs;Google;
+# В этих двух строчках нужно вместо <path_to_app> указать папку с распакованным приложением
+Exec=<path_to_app>/googledoc-extract-images
+Icon=<path_to_app>/resources/app/icon.png
