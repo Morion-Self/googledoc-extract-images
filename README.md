@@ -20,10 +20,10 @@
 ## Работает в:
 - ✅ **Windows 10**
 - ✅ **Linux**
-- ❌ **macOS**. *В теории должно, но я не тестировал*.
+- ❌ **macOS**. *В теории должно, но пока никто не просил сделать эту программу для macOS*.
 
 
 ## Скачать
 - **[Windows](https://github.com/Morion-Self/googledoc-extract-images/releases/download/v0.2.0/googledoc-extract-images_win.7z)**
 - **[Linux](https://github.com/Morion-Self/googledoc-extract-images/releases/download/v0.2.0/googledoc-extract-images_lin.7z)**
-- **macOS**. *Будет позже*
+- **macOS**. *Сделаю, если кому-то это будет нужно*
