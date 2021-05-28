@@ -14,7 +14,7 @@
 ![googledoc-extact-images share](img/share.png)
 1. Нажать Кнопку `[Извлечь]` или клавишу `Enter`
 1. Откроется папка с извлеченными изображениями.
-    >⚠️ Изображения извлекаются во временную директорию. Это значит, что после перезагрузки компьютера они исчезнут. Если они нужны вам на длительное время — сразу скопируйте их.
+    >⚠️ Изображения извлекаются во временную директорию. Это значит, что после перезагрузки компьютера они могут исчезнуть. Если изображения нужны вам на длительное время — сразу скопируйте их в отдельную папку.
 
 
 ## Работает в:
@@ -24,6 +24,6 @@
 
 
 ## Скачать
-- **[Windows](https://github.com/Morion-Self/googledoc-extract-images/releases/download/v0.2.0/googledoc-extract-images_win.7z)**
-- **[Linux](https://github.com/Morion-Self/googledoc-extract-images/releases/download/v0.2.0/googledoc-extract-images_lin.7z)**
+- **[Windows](https://github.com/Morion-Self/googledoc-extract-images/releases/download/v0.2.0/googledoc-extract-images-win.7z)**
+- **[Linux](https://github.com/Morion-Self/googledoc-extract-images/releases/download/v0.2.0/googledoc-extract-images-lin.7z)**
 - **macOS**. *Сделаю, если кому-то это будет нужно*

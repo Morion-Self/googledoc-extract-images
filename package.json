@@ -4,9 +4,11 @@
   "description": "Извлекает все изображения из гугл-дока и нумерует их в порядке очередности",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "build-lin": "electron-packager . --overwrite --out=build --icon=icon.ico --platform=linux",
-    "build-win": "electron-packager . --overwrite --out=build --icon=icon.ico --platform=win32"
+    "run": "electron .",
+    "lin-build": "electron-packager . --overwrite --out=build --icon=img/icon.png --platform=linux",    
+    "lin-package": "cd build; rm -r googledoc-extract-images; cp -r googledoc-extract-images-linux-x64 googledoc-extract-images; 7z a -ssw -mx5 -spf -r0 googledoc-extract-images-lin googledoc-extract-images; rm -r googledoc-extract-images",
+    "win-build": "electron-packager . --overwrite --out=build --icon=img/icon.ico --platform=win32",
+    "win-package": "cd build; rm -r googledoc-extract-images; cp -r googledoc-extract-images-win32-x64 googledoc-extract-images; 7z a -ssw -mx5 -spf -r0 googledoc-extract-images-win googledoc-extract-images; rm -r googledoc-extract-images"
   },
   "repository": "https://github.com/Morion-Self/googledoc-extract-images",
   "author": "Marat Talipov",
