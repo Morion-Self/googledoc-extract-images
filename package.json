@@ -1,6 +1,6 @@
 {
   "name": "googledoc-extract-images",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Извлекает все изображения из гугл-дока и нумерует их в порядке очередности",
   "main": "main.js",
   "scripts": {
