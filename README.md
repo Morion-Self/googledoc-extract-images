@@ -24,6 +24,6 @@
 
 
 ## Скачать
-- **[Windows](https://github.com/Morion-Self/googledoc-extract-images/releases/download/v0.3.0/googledoc-extract-images-win.7z)**
-- **[Linux](https://github.com/Morion-Self/googledoc-extract-images/releases/download/v0.3.0/googledoc-extract-images-lin.7z)**
+- **[Windows](https://github.com/Morion-Self/googledoc-extract-images/releases/download/v0.4.0/googledoc-extract-images-win.7z)**
+- **[Linux](https://github.com/Morion-Self/googledoc-extract-images/releases/download/v0.4.0/googledoc-extract-images-lin.7z)**
 - **macOS**. *Сделаю, если кому-то это будет нужно*
