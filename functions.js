@@ -1,6 +1,6 @@
 const unzipper = require('unzipper');
 const fs = require('fs');
-const request = require('request');
+const request = require('request'); // deprecated, но мне пока подойдет. Другие варианты меня не устроили, кажется из-за того, что нужно сохранять результат в файл. Думаю, это возможно сделать и с другими библиотеками, но я осилил request и мне этого достаточно.
 const os = require('os');
 var HTMLParser = require('node-html-parser');
 const { shell } = require('electron');
@@ -24,7 +24,7 @@ document.querySelector('#btnEd').addEventListener('click', () => {
 
     let docID;
     url.split('/').forEach(function (item, index, array) {
-        if (item === 'd') {     // находим в url /d/ и после него идет айдишник документа
+        if (item === 'd') { // находим в url /d/ и после него идет айдишник документа
             docID = array[index + 1];
         }
     });
@@ -95,7 +95,6 @@ document.querySelector('#btnEd').addEventListener('click', () => {
 
 });
 
-
 // при нажатии Enter в поле ввода
 document.querySelector('#inputUrl').addEventListener("keyup", function (event) {
     if (event.keyCode === 13) {
@@ -110,17 +109,6 @@ function uuidv4() {
         return v.toString(16);
     });
 }
-
-// function getDate() {
-//     function pad(n) { return n < 10 ? '0' + n : n };
-//     let d = new Date();
-//     return d.getFullYear() + '-'
-//         + pad(d.getMonth() + 1) + '-'
-//         + pad(d.getDate()) + '_'
-//         + pad(d.getHours()) + '-'
-//         + pad(d.getMinutes()) + '-'
-//         + pad(d.getSeconds());
-// }
 
 // типа логгер, который будет выходить на экране.
 // Просто пишем текст в div
