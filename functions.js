@@ -5,7 +5,6 @@ const os = require('os');
 var HTMLParser = require('node-html-parser');
 const { shell } = require('electron');
 const pjson = require('./package.json');
-console.log();
 
 document.querySelector('#version').innerHTML += pjson.version;
 
